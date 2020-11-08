@@ -394,10 +394,25 @@ html {
   display: block;
   height: 120px;
   background: #f5f4fa;
-  background-image: url(../img/antena.png);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
+}
+
+.item:nth-child(1)::before {
+  background-image: url(../img/antena.png);
+}
+
+.item:nth-child(2)::before {
+  background-image: url(../img/cloc.png);
+}
+
+.item:nth-child(3)::before {
+  background-image: url(../img/mac.png);
+}
+
+.item:nth-child(4)::before {
+  background-image: url(../img/astronaut.png);
 }
 
 .section-title .item:nth-child(4n) {
