@@ -109,7 +109,7 @@ html {
   list-style: none;
   padding: 0;
   margin: 0;
-  margin-bottom: 94px;
+  margin-bottom: 0;
 }
 
 .list-best .itev {
@@ -235,6 +235,25 @@ html {
   padding-bottom: 32px;
 }
 
+.info.mail::before {
+  display: inline-block;
+  content: "";
+  width: 16px;
+  height: 12px;
+  margin-right: 10px;
+  background-image: url(../img/icon.png);
+  cursor: pointer;
+}
+
+.info.tel::before {
+  display: inline-block;
+  content: "";
+  width: 10px;
+  height: 16px;
+  margin-right: 10px;
+  background-image: url(../img/phone.png);
+}
+
 .info-footer {
   padding-top: 32px;
   padding-bottom: 32px;
@@ -330,9 +349,21 @@ html {
 }
 
 .baner-section {
-  background-color: #2f303a;
   height: 600px;
   margin-top: 0;
+  background-image: linear-gradient(
+      to right,
+      rgba(30, 38, 124, 0.4),
+      rgba(30, 38, 124, 0.4)
+    ),
+    url(../img/fon.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1600px;
+  background-size: cover;
+  background-color: #212121;
 }
 
 .baner {
@@ -356,6 +387,17 @@ html {
 .section-title .item {
   width: 270px;
   margin-right: 15px;
+}
+
+.item::before {
+  content: "";
+  display: block;
+  height: 120px;
+  background: #f5f4fa;
+  background-image: url(../img/antena.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .section-title .item:nth-child(4n) {
