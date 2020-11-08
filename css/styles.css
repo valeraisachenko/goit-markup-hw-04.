@@ -328,6 +328,8 @@ html {
   line-height: 16px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin: 0;
+  padding-top: 30px;
 }
 
 .auth-nav a {
@@ -400,19 +402,19 @@ html {
 }
 
 .item:nth-child(1)::before {
-  background-image: url(../img/antena.png);
+  background-image: url(../img/antena.svg);
 }
 
 .item:nth-child(2)::before {
-  background-image: url(../img/cloc.png);
+  background-image: url(../img/clock.svg);
 }
 
 .item:nth-child(3)::before {
-  background-image: url(../img/mac.png);
+  background-image: url(../img/Vector.svg);
 }
 
 .item:nth-child(4)::before {
-  background-image: url(../img/astronaut.png);
+  background-image: url(../img/astronaut.svg);
 }
 
 .section-title .item:nth-child(4n) {
