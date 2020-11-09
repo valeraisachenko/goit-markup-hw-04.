@@ -136,6 +136,13 @@ html {
   color: var(--titlt-text-color);
 }
 
+.section-team {
+  padding-bottom: 94px;
+  padding-top: 94px;
+  margin-top: 94px;
+  background: #f5f4fa;
+}
+
 .title {
   font-family: Roboto;
   font-style: normal;
@@ -274,6 +281,8 @@ html {
   line-height: 42px;
   letter-spacing: 0.03em;
   margin-top: 0;
+  margin-bottom: 0;
+  padding-bottom: 50px;
 }
 .name {
   font-family: Roboto;
@@ -397,7 +406,6 @@ html {
   display: block;
   height: 120px;
   background: #f5f4fa;
-  background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -422,7 +430,60 @@ html {
   margin-right: 0;
 }
 
+/* <!--  Постоянные клиенты --> */
+
+.iter::before {
+  content: "";
+  display: block;
+  height: 90px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.iter {
+  display: inline-block;
+  margin-right: 30px;
+  width: 170px;
+  height: 90px;
+  border: 1px solid #afb1b8;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+.iter:nth-child(1)::before {
+  background-image: url(../img/pervaja.svg);
+}
+
+.iter:nth-child(2)::before {
+  background-image: url(../img/vtoraja.svg);
+}
+
+.iter:nth-child(3)::before {
+  background-image: url(../img/tretja.svg);
+}
+
+.iter:nth-child(4)::before {
+  background-image: url(../img/chetvertaja.svg);
+}
+
+.iter:nth-child(5)::before {
+  background-image: url(../img/pjataja.svg);
+}
+
+.iter:nth-child(6)::before {
+  background-image: url(../img/shestaja.svg);
+}
+
+.iter:nth-child(6n) {
+  margin-right: 0;
+}
+
+.span-logo {
+  display: none;
+}
+
 .footer {
+  margin-top: 94px;
   background-color: #2f303a;
   min-height: 252px;
 }
