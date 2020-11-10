@@ -451,27 +451,27 @@ html {
 }
 
 .iter:nth-child(1)::before {
-  background-image: url(../img/pervaja.svg);
+  background-image: url(../img/symbol-defs.svg#icon-instagram);
 }
 
 .iter:nth-child(2)::before {
-  background-image: url(../img/vtoraja.svg);
+  background-image: url(../img/);
 }
 
 .iter:nth-child(3)::before {
-  background-image: url(../img/tretja.svg);
+  background-image: url();
 }
 
 .iter:nth-child(4)::before {
-  background-image: url(../img/chetvertaja.svg);
+  background-image: url();
 }
 
 .iter:nth-child(5)::before {
-  background-image: url(../img/pjataja.svg);
+  background-image: url();
 }
 
 .iter:nth-child(6)::before {
-  background-image: url(../img/shestaja.svg);
+  background-image: url();
 }
 
 .iter:nth-child(6n) {
@@ -561,4 +561,25 @@ button:hover,
 button :focus {
   color: var(--button-color);
   background: var(--accent-color);
+}
+
+.linck {
+  display: inline-block;
+  background-image: url(../img/facebook.svg);
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-size: 20px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #ffffff;
+}
+
+.linck:hover {
+  color: var(--button-color);
+  background: var(--accent-color);
+}
+
+.icones:hover .letter {
+  fill: blueviolet;
 }
