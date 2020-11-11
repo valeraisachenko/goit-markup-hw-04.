@@ -419,7 +419,7 @@ html {
 }
 
 .item:nth-child(3)::before {
-  background-image: url(../img/Vector.svg);
+  background-image: url(../img/pc.svg);
 }
 
 .item:nth-child(4)::before {
@@ -451,27 +451,27 @@ html {
 }
 
 .iter:nth-child(1)::before {
-  background-image: url(../img/symbol-defs.svg#icon-instagram);
+  background-image: url(../img/one.svg);
 }
 
 .iter:nth-child(2)::before {
-  background-image: url(../img/);
+  background-image: url(../img/two.svg);
 }
 
 .iter:nth-child(3)::before {
-  background-image: url();
+  background-image: url(../img/three.svg);
 }
 
 .iter:nth-child(4)::before {
-  background-image: url();
+  background-image: url(../img/four.svg);
 }
 
 .iter:nth-child(5)::before {
-  background-image: url();
+  background-image: url(../img/five.svg);
 }
 
 .iter:nth-child(6)::before {
-  background-image: url();
+  background-image: url(../img/six.svg);
 }
 
 .iter:nth-child(6n) {
@@ -563,23 +563,22 @@ button :focus {
   background: var(--accent-color);
 }
 
-.linck {
+.one {
   display: inline-block;
-  background-image: url(../img/facebook.svg);
-  width: 44px;
-  height: 44px;
+  width: 200px;
+  height: 200px;
   border-radius: 50%;
-  background-size: 20px;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-color: #ffffff;
+  cursor: pointer;
 }
 
-.linck:hover {
-  color: var(--button-color);
-  background: var(--accent-color);
+.one:hover > .circle {
+  fill: #c97064;
 }
 
-.icones:hover .letter {
-  fill: blueviolet;
+.circle {
+  fill: #3b5998;
+}
+
+.letter {
+  fill: #f4fff8;
 }
