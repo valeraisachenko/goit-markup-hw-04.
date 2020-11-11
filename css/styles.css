@@ -563,22 +563,36 @@ button :focus {
   background: var(--accent-color);
 }
 
-.one {
-  display: inline-block;
-  width: 200px;
-  height: 200px;
+.actions {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  list-style: none;
+  width: 245px;
+  height: 63px;
+}
+
+.bicon {
+  padding: 0;
+}
+
+.icone {
+  width: 44px;
+  height: 44px;
+  margin-top: 13px;
+  margin-left: 23px;
+}
+
+.iconeli {
   border-radius: 50%;
-  cursor: pointer;
+  background-size: 20px;
+  width: 44px;
+  height: 44px;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
-.one:hover > .circle {
-  fill: #c97064;
-}
-
-.circle {
-  fill: #3b5998;
-}
-
-.letter {
-  fill: #f4fff8;
+.iconeli:hover {
+  color: var(--button-color);
+  background: var(--accent-color);
 }
