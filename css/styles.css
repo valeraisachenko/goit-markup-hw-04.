@@ -579,12 +579,12 @@ button :focus {
   display: flex;
   align-items: center;
   justify-content: center;
-  outline: solid 1px red;
   background-image: url(../img/symbol-defs.svg#icon-instagram);
 }
 
 .icone {
-  fill: brown;
+  width: 20px;
+  height: 20px;
 }
 
 .iconeli {
@@ -593,11 +593,5 @@ button :focus {
   width: 44px;
   height: 44px;
   background-repeat: no-repeat;
-  background-position: center;
-}
-
-.iconeli:hover {
-  color: var(--button-color);
-  background: var(--accent-color);
   background-position: center;
 }
