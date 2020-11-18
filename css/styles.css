@@ -91,6 +91,7 @@ html {
 
 .team {
   margin-bottom: 30px;
+  cursor: pointer;
 }
 
 .team:hover {
@@ -192,6 +193,7 @@ html {
 .main-nav {
   height: 80px;
   display: flex;
+  justify-content: space-between;
   align-items: center;
   margin-bottom: 0;
   border-bottom: 1px solid #ececec;
@@ -251,7 +253,7 @@ html {
   width: 16px;
   height: 12px;
   margin-right: 10px;
-  background-image: url(../img/icon.png);
+  background-image: url(../img/mail.svg);
   cursor: pointer;
 }
 
@@ -261,7 +263,7 @@ html {
   width: 10px;
   height: 16px;
   margin-right: 10px;
-  background-image: url(../img/phone.png);
+  background-image: url(../img/telefon.svg);
 }
 
 .info-footer {
@@ -449,10 +451,23 @@ html {
   border: 1px solid #afb1b8;
   box-sizing: border-box;
   border-radius: 4px;
+  cursor: pointer;
+}
+.iter:hover {
+  border: 1px solid #2196f3;
 }
 
 .iter:nth-child(1)::before {
   background-image: url(../img/one.svg);
+}
+
+.one {
+  width: 100px;
+  height: 100px;
+}
+
+.one.latter {
+  fill: #212121;
 }
 
 .iter:nth-child(2)::before {
@@ -594,6 +609,11 @@ button :focus {
   height: 44px;
   background-repeat: no-repeat;
   background-position: center;
+  cursor: pointer;
+}
+
+.iconeli:hover {
+  background-color: #2196f3;
 }
 
 .footer-setion {
@@ -601,7 +621,7 @@ button :focus {
   background-color: #2f303a;
 }
 
-.container .container-footer {
+.container.container-footer {
   display: flex;
   height: 211px;
   align-items: baseline;
@@ -611,7 +631,7 @@ button :focus {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  margin-right: 179px;
+  margin-right: 75px;
   min-width: 231px;
 }
 
@@ -620,4 +640,97 @@ button :focus {
   flex-direction: column;
   min-width: 207px;
   margin-right: 102px;
+}
+
+.accession {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding-bottom: 20px;
+}
+
+.lezt-post {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 94px;
+}
+
+.links-one {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background: rgba(255, 255, 255, 0.1);
+  background-image: url(../svg/instagram.svg);
+  border-radius: 50%;
+  background-size: 20px;
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+}
+
+.links-twit {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background: rgba(255, 255, 255, 0.1);
+  background-image: url(../svg/twitter.svg);
+  border-radius: 50%;
+  background-size: 20px;
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+}
+
+.links-faceb {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background: rgba(255, 255, 255, 0.1);
+  background-image: url(../svg/facebook.svg);
+  border-radius: 50%;
+  background-size: 13px;
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+}
+
+.links-link {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background: rgba(255, 255, 255, 0.1);
+  background-image: url(../svg/linkedin.svg);
+  border-radius: 50%;
+  background-size: 20px;
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+}
+
+.links-faceb:hover {
+  background-color: #2196f3;
+}
+
+.links-one:hover {
+  background-color: #2196f3;
+}
+
+.links-twit:hover {
+  background-color: #2196f3;
+}
+
+.links-link:hover {
+  background-color: #2196f3;
+}
+
+.distance {
+  padding-right: 10px;
 }
