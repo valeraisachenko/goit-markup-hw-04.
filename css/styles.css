@@ -601,10 +601,10 @@ button :focus {
   background-color: #2f303a;
 }
 
-.container-footer {
+.container .container-footer {
   display: flex;
   height: 211px;
-  align-items: center;
+  align-items: baseline;
 }
 
 .adres-item {
