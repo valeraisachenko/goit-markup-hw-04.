@@ -615,7 +615,7 @@ button :focus {
   min-width: 231px;
 }
 
-.social {
+.social-container {
   display: flex;
   flex-direction: column;
   min-width: 207px;
