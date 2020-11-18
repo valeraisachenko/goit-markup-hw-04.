@@ -90,8 +90,12 @@ html {
 }
 
 .team {
-  border: 1px solid #eeeeee;
   margin-bottom: 30px;
+}
+
+.team:hover {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .lest-post .team {
@@ -140,7 +144,7 @@ html {
   padding-bottom: 94px;
   padding-top: 94px;
   margin-top: 94px;
-  background: #f5f4fa;
+  background-color: #f5f4fa;
 }
 
 .title {
@@ -182,7 +186,6 @@ html {
   font-weight: normal;
   font-size: 16px;
   line-height: 1.9;
-  color: var(--primary-text-color);
 }
 /*mine nav*/
 
@@ -294,7 +297,6 @@ html {
 }
 
 .auth-nav {
-  margin-left: auto;
   display: flex;
   font-family: Roboto;
   font-style: normal;
@@ -307,7 +309,6 @@ html {
 
 .auts-nav {
   display: block;
-  margin-left: auto;
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
@@ -452,7 +453,6 @@ html {
 
 .iter:nth-child(1)::before {
   background-image: url(../img/one.svg);
-  fill: brown;
 }
 
 .iter:nth-child(2)::before {
@@ -594,4 +594,30 @@ button :focus {
   height: 44px;
   background-repeat: no-repeat;
   background-position: center;
+}
+
+.footer-setion {
+  display: block;
+  background-color: #2f303a;
+}
+
+.container-footer {
+  display: flex;
+  height: 211px;
+  align-items: center;
+}
+
+.adres-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-right: 179px;
+  min-width: 231px;
+}
+
+.social {
+  display: flex;
+  flex-direction: column;
+  min-width: 207px;
+  margin-right: 102px;
 }
